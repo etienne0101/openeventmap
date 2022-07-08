@@ -20,4 +20,6 @@ BIND(IF( (?birthyear < 1700), "Pre-1700", IF((?birthyear < 1751), "1700-1750", I
 ?place rdfs:label ?birthplace FILTER (lang(?birthplace) = "en")
 } ORDER BY ?dob
 ```
+#### Request result
+https://w.wiki/5RFu
 
