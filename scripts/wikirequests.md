@@ -7,7 +7,7 @@ https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples#Map
 
 #### Request script
 
-""
+```
 #defaultView:Map
 SELECT DISTINCT ?person ?name ?birthplace ?dod ?coord ?layer ?dob WHERE {
 {?person wdt:P106 wd:Q188094} UNION {?person wdt:P101 wd:Q8134}
@@ -19,4 +19,5 @@ BIND(IF( (?birthyear < 1700), "Pre-1700", IF((?birthyear < 1751), "1700-1750", I
 ?person rdfs:label ?name FILTER (lang(?name) = "en")
 ?place rdfs:label ?birthplace FILTER (lang(?birthplace) = "en")
 } ORDER BY ?dob
-""
+```
+
