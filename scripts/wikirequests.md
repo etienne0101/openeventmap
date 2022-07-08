@@ -23,3 +23,7 @@ BIND(IF( (?birthyear < 1700), "Pre-1700", IF((?birthyear < 1751), "1700-1750", I
 #### Request result
 https://w.wiki/5RFu
 
+### Date and location of plane crashes
+
+#### Request result
+https://w.wiki/5RJ2
